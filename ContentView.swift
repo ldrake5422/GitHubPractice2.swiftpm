@@ -4,8 +4,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             
-            NavigationLink("Next",
-                                           destination: AppModule.NounView())
+            NavigationLink("NounView go", destination: NounView())
+                           
             
         }
     }

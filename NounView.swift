@@ -9,6 +9,10 @@ import SwiftUI
 
 struct NounView: View {
     var body: some View {
-        NavigationLink("VerbView go", destination: VerbView())
+        
+        
+            NavigationLink("VerbView go", destination: VerbView())
+                           
+        }
     }
-}
+
